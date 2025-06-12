@@ -14,4 +14,3 @@ Inject a payload that **executes the alert() function**, confirming XSS vulnerab
 ## 🚀 Payload Used:
 ```html
 <script>alert('XSS test')</script>
-![Screenshot 2025-06-12 154238](https://github.com/user-attachments/assets/73a9de68-cc2f-4e76-b280-6e5dffe08684)

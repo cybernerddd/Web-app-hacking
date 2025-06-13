@@ -1,0 +1,5 @@
+- Client-side = frontend → where I can inject payloads
+- Server-side = backend → where I can steal data or break logic
+- HTTP is the language of the web — GET, POST, headers, cookies
+- Session cookies = gold. If I get it, I become the user.
+- XSS = inject JS. SQLi = inject SQL. IDOR = abuse broken access

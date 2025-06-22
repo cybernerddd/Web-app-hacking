@@ -52,4 +52,4 @@ Then:
 - Adds randomness via nonce to prevent replay
 - Still vulnerable if weak passwords + no HTTPS
 
-
+    best result(575767)

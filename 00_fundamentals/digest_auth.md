@@ -22,7 +22,7 @@ A challenge-response mechanism using hash functions to authenticate users over H
 
 # Digest Authentication – Hash Calculation Flow
 
-## 🔐 Digest Response Formula
+## 🔐 Digest Response Formula - RFC 2069
 
     response = MD5(HA1 : nonce : HA2)
 

@@ -68,6 +68,8 @@ const tool = "Burp Suite";
 
 ## Mathematical Assignment Operators
 ```javascript
+Mathematical assignment operators make it easy to calculate 
+a new value and assign it to the same variable.
 - +=
 - -=
 - *=

@@ -80,3 +80,13 @@ console.log(b); ///This will present the output 9
 
 ```
 
+## `String Interpolation`
+```javascript
+We can insert, or interpolate, variables into strings using template literals.
+//Example case
+**const myName = 'cybernerddd';**
+///Now i was to add this var to a sentence for instance;
+'Pleasure to meet you cybernerddd.'
+**Your log**
+console.log(`Pleasure to meet you ${myName}.`)
+```

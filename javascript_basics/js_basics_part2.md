@@ -32,3 +32,14 @@ if(sale) {
   console.log('Time to wait for a sale.');
 }
 ```
+## `Comparison Operators`
+```javascript
+- Theyre ussed to compare values. some are below; Just like how we've been seeing all the time, nuin different.
+Less than: <
+Greater than: >
+Less than or equal to: <=
+Greater than or equal to: >=
+Is equal to: ===
+Is not equal to: !==
+*10 < 12 // Evaluates to true*
+```

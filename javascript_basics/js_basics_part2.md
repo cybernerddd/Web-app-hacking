@@ -1,1 +1,1 @@
-hi
+🧠 JavaScript Basics – Part 2

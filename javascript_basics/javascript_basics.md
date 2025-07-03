@@ -26,7 +26,7 @@ let mod = 10 % 3;     // Modulo (remainder)
 ```javascript
 let name = "Cyber" + "nerddd";  // "Cybernerddd"
 
-## string propertoes and methods
+## string properties and methods
 "Cybernerddd".length  // 11
 "hack".toUpperCase();  // "HACK"
 "   padded   ".trim();  // "padded"

@@ -56,9 +56,14 @@ var hacker = "Cybernerddd";
 
 **let**
 let target = "example.com"; //Modern, block-scoped. Can be updated but not redeclared
+let is the preferred way to declare a variable 
+when it can be reassigned
 
 **const**
+const is the preferred way to declare 
+a variable with a constant value
 const tool = "Burp Suite";
+
 ```
 
 ## Mathematical Assignment Operators
@@ -83,6 +88,8 @@ console.log(b); ///This will present the output 9
 ## `String Interpolation`
 ```javascript
 We can insert, or interpolate, variables into strings using template literals.
+In ES6, template literals use backticks ` 
+and ${} to interpolate values into a string.
 //Example case
 *const myName = 'cybernerddd';*
 ///Now i was to add this var to a sentence for instance;

@@ -15,3 +15,20 @@ Inside the parentheses (), a condition is provided that evaluates to true or fal
 - If the condition evaluates to false, the block won’t execute.
 
 ```
+
+## `If....Else Statments`
+```javascript
+Not everytime we'll get our condition evaluate to true. It also evaluates to false,
+therefore youll need to add an else statement to run a block of code whem
+the condition is false
+
+Below:
+let sale = true;
+sale = false;
+
+if(sale) {
+  console.log('Time to buy!');
+} else {
+  console.log('Time to wait for a sale.');
+}
+```

@@ -101,3 +101,4 @@ console.log(typeof month1); // Output: string
 
 const month3 = true; 
 console.log(typeof month3); // Output: boolean
+```

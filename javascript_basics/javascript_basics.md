@@ -61,7 +61,7 @@ let target = "example.com"; //Modern, block-scoped. Can be updated but not redec
 const tool = "Burp Suite";
 ```
 
-## `Mathematical Assignment Operators`
+## Mathematical Assignment Operators
 ```javascript
 - +=
 - -=
@@ -69,8 +69,14 @@ const tool = "Burp Suite";
 - /=
 
 ## `Increment and Decrement Operators`
-- We use the ++ to increment a variable by 1 //example 
-- And -- to decrease a var by 1
+- We use the ++ to increment a variable by 1 //example
+let a = 20;
+a++;
+console.log(a) ///This will give you 21 as output
+- And -- to decrease a var by 1 //Example
+let b = 10;
+b--;
+console.log(b) ///This will present the output 9
 
 ```
 

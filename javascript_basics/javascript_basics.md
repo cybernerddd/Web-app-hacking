@@ -44,6 +44,8 @@ Math.floor(Math.random() * 10) + 1;
 
 ## 📦 Declaring Variables
 
+```
+
 ### `var`
 ```javascript
 var hacker = "Cybernerddd";

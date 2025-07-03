@@ -61,3 +61,11 @@ let target = "example.com"; //Modern, block-scoped. Can be updated but not redec
 **const**
 const tool = "Burp Suite";
 
+## `Mathematical Assignment Operators`
+```javascript
+- +=
+- -=
+- *=
+- /=
+```
+

@@ -49,7 +49,6 @@ Math.floor(Math.random() * 10) + 1;
 
 ## 📦 Declaring Variables
 
-```
 
 ### `Declaring Variables`
 ```javascript
@@ -60,6 +59,7 @@ let target = "example.com"; //Modern, block-scoped. Can be updated but not redec
 
 **const**
 const tool = "Burp Suite";
+```
 
 ## `Mathematical Assignment Operators`
 ```javascript

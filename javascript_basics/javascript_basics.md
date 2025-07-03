@@ -91,8 +91,8 @@ We can insert, or interpolate, variables into strings using template literals.
 console.log(`Pleasure to meet you ${myName}.`);
 ```
 
-```javascript
 ## `Typeof operator`
+```javascript
 The typeof operator checks the value to its right and returns, or passes back, 
 a string of the data type.
 

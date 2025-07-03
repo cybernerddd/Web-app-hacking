@@ -39,3 +39,18 @@ Math.round(4.6);    // 5
 
 **Random number between 1-10**
 Math.floor(Math.random() * 10) + 1;
+
+# 🔢 JavaScript Variables
+
+## 📦 Declaring Variables
+
+### `var`
+```javascript
+var hacker = "Cybernerddd";
+
+**let**
+let target = "example.com"; //Modern, block-scoped. Can be updated but not redeclared
+
+**const**
+const tool = "Burp Suite";
+

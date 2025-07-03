@@ -76,7 +76,7 @@ console.log(a) ///This will give you 21 as output
 - And -- to decrease a var by 1 //Example
 let b = 10;
 b--;
-console.log(b) ///This will present the output 9
+console.log(b); ///This will present the output 9
 
 ```
 

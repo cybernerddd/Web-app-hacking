@@ -20,8 +20,10 @@ let diff = 10 - 2;    // Subtraction
 let prod = 4 * 2;     // Multiplication
 let div = 20 / 5;     // Division
 let mod = 10 % 3;     // Modulo (remainder)
+```
 
-## String concatenation 
+## `String concatenation`
+```javascript
 let name = "Cyber" + "nerddd";  // "Cybernerddd"
 
 ## string propertoes and methods
@@ -29,8 +31,10 @@ let name = "Cyber" + "nerddd";  // "Cybernerddd"
 "hack".toUpperCase();  // "HACK"
 "   padded   ".trim();  // "padded"
 
+```
 
-## Math Object
+## `Math Object`
+```javascript
 *commom methods*
 Math.floor(4.9);    // 4
 Math.ceil(4.1);     // 5
@@ -39,6 +43,7 @@ Math.round(4.6);    // 5
 
 **Random number between 1-10**
 Math.floor(Math.random() * 10) + 1;
+```
 
 # 🔢 JavaScript Variables
 

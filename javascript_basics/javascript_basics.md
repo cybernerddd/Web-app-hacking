@@ -90,3 +90,14 @@ We can insert, or interpolate, variables into strings using template literals.
 **Your log**
 console.log(`Pleasure to meet you ${myName}.`);
 ```
+
+```javascript
+## `Typeof operator`
+The typeof operator checks the value to its right and returns, or passes back, 
+a string of the data type.
+
+const month1 = 'january';
+console.log(typeof month1); // Output: string
+
+const month3 = true; 
+console.log(typeof month3); // Output: boolean

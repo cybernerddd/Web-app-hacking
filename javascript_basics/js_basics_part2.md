@@ -1,1 +1,2 @@
-🧠 JavaScript Basics – Part 2
+# 🧠 JavaScript Basics – Part 1
+

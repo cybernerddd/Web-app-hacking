@@ -34,7 +34,7 @@ if(sale) {
 ```
 ## `Comparison Operators`
 ```javascript
-- Theyre ussed to compare values. some are below; Just like how we've been seeing all the time, nuin different.
+- Theyre used to compare values. some are below; Just like how we've been seeing all the time, nuin different.
 Less than: <
 Greater than: >
 Less than or equal to: <=
@@ -42,4 +42,22 @@ Greater than or equal to: >=
 Is equal to: ===
 Is not equal to: !==
 *10 < 12 // Evaluates to true*
+
+## logical operators
+the and operator (&&)
+the or operator (||)
+the not operator, otherwise known as the bang operator (!)
+
+if (stopLight === 'green' && pedestrians === 0) {
+  console.log('Go!');
+} else {
+  console.log('Stop');
+}
+
+-------------------------------
+The ! not operator reverses, or negates, the value of a boolean:
+let sleepy = false;
+console.log(!sleepy); // Prints true
+
+
 ```

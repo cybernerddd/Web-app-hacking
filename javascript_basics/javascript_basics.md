@@ -67,5 +67,10 @@ const tool = "Burp Suite";
 - -=
 - *=
 - /=
+
+## `Increment and Decrement Operators`
+- We use the ++ to increment a variable by 1 //example 
+- And -- to decrease a var by 1
+
 ```
 

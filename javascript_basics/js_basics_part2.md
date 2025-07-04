@@ -33,7 +33,7 @@ if(sale) {
 }
 ```
 # `Else If statement`
-```
+```css
 Allows you to add 2 or more outcomes, cause you can add any amount of else if statement aas u want;
 let stopLight = 'yellow';
 

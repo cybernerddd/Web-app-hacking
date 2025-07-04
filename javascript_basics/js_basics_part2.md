@@ -102,3 +102,28 @@ condition given is true, then followed with a a separation colon for the false s
  Just like if...else statemenst, the ternary operator ternary operators 
 can be used for conditions which evaluate to true or false.
 ```
+## `switch`
+```javascript
+We use this when we have to check multiple values and handle each of them differently. We can use the else if statement but 
+Imagine if we needed to check 100 different values! Having to write that many else if statements sounds like a pain and shit lol.
+Sow we use the switch. Example of a switch statement:
+
+let groceryItem = 'papaya';
+
+switch (groceryItem) {
+  case 'tomato':
+    console.log('Tomatoes are $0.49');
+    break;
+  case 'lime':
+    console.log('Limes are $1.49');
+    break;
+  case 'papaya':
+    console.log('Papayas are $1.29');
+    break;
+  default:
+    console.log('Invalid item');
+    break;
+}
+
+// Prints 'Papayas are $1.29'
+```

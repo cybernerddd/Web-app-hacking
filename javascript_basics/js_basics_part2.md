@@ -5,6 +5,7 @@
 ```javascript
 The if keyword followed by a set of parentheses () which is followed by a code block,
  or block statement, indicated by a set of curly braces {}
+
 if (true) {
 console.log('This is if statement');
 }
@@ -23,6 +24,7 @@ therefore youll need to add an else statement to run a block of code whem
 the condition is false
 
 Below:
+
 let sale = true;
 sale = false;
 
@@ -82,13 +84,15 @@ console.log(!sleepy); // Prints true
 ```javascript
 We can use a ternary operator in place of an if...else statement.
 For Instance: An if...else statment below:
+
 let nightAtNight = true;
+
 if (nightAtNight) {
 console.log('Go to Bed');
 } else {
 console.log('Its not bed time yet');
 }
-
+--------------------
 So with this, using a ternary operator will be:
 nightAtNight ? console.log('Go to bed')
 : console.log('Its not bed time yet');

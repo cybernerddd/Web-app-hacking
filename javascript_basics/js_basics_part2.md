@@ -31,6 +31,22 @@ if(sale) {
 } else {
   console.log('Time to wait for a sale.');
 }
+
+`Else If statement`
+Allows you to add 2 or more outcomes, cause you can add any amount of else if statement aas u want;
+let stopLight = 'yellow';
+
+if (stopLight === 'red') {
+  console.log('Stop!');
+} else if (stopLight === 'yellow') {
+  console.log('Slow down.');
+} else if (stopLight === 'green') {
+  console.log('Go!');
+} else {
+  console.log('Caution, unknown!');
+}
+
+
 ```
 ## `Comparison Operators`
 ```javascript
@@ -60,4 +76,24 @@ let sleepy = false;
 console.log(!sleepy); // Prints true
 
 
+```
+## `Ternary operators`
+```javascript
+We can use a ternary operator in place of an if...else statement.
+For Instance: An if...else statment below:
+let nightAtNight = true;
+if (nightAtNight) {
+console.log('Go to Bed');
+} else {
+console.log('Its not bed time yet');
+}
+
+So with this, using a ternary operator will be:
+nightAtNight ? console.log('Go to bed')
+: console.log('Its not bed time yet');
+
+So you give the condition, followed by a question mark ? ,then block of code; which will be run if the
+condition given is true, then followed with a a separation colon for the false statement.
+ Just like if...else statemenst, the ternary operator ternary operators 
+can be used for conditions which evaluate to true or false.
 ```

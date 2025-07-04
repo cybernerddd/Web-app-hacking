@@ -31,8 +31,9 @@ if(sale) {
 } else {
   console.log('Time to wait for a sale.');
 }
-
-`Else If statement`
+```
+# `Else If statement`
+```
 Allows you to add 2 or more outcomes, cause you can add any amount of else if statement aas u want;
 let stopLight = 'yellow';
 

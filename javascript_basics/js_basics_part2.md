@@ -127,3 +127,88 @@ switch (groceryItem) {
 
 // Prints 'Papayas are $1.29'
 ```
+
+## ARRAYS
+
+```js
+let payloads = ["<script>alert(1)</script>", "' OR 1=1 --", "../../../etc/passwd"];
+console.log(payloads[0]);           // Access first item
+payloads.push("newPayload");        // Add item
+payloads[1] = "' OR 'a'='a";        // Modify item
+```
+## `LOOPS (for / while)`
+```js
+for (let i = 0; i < payloads.length; i++) {
+  console.log("Trying: " + payloads[i]);
+}
+
+## While Loop:
+let count = 0;
+while (count < 3) {
+  console.log("Try: " + count);
+  count++;
+}
+```
+## ITERATORS (forEach, map)
+```js
+forEach:
+payloads.forEach(function(p) {
+  console.log("Inject: " + p);
+});
+
+map = modify/transform array:
+let encoded = payloads.map(function(p) {
+  return encodeURIComponent(p);
+});
+console.log(encoded);
+
+```
+## OBJECTS
+```js
+let user = {
+  username: "admin",
+  password: "123456",
+  isAdmin: true
+};
+
+## Access / Modify / Add / Delete:
+console.log(user.username);     // Access
+user.password = "root123";      // Modify
+user.email = "admin@site.com";  // Add
+delete user.isAdmin;            // Delete
+
+## Loop through object:
+for (let key in user) {
+  console.log(key + ": " + user[key]);
+}
+## OBJECTS INSIDE ARRAYS:
+let creds = [
+  { username: "admin", password: "123456" },
+  { username: "guest", password: "guest123" }
+];
+
+creds.forEach(cred => {
+  console.log("Trying: " + cred.username + " / " + cred.password);
+});
+```
+
+## Nested Loops Comparing Arrays
+```js
+Find mutual items between 2 arrays:
+let bobsFollowers = ["Sam", "John", "Alex"];
+let tinasFollowers = ["Alex", "Zoe", "Sam"];
+let mutualFollowers = [];
+
+for (let i = 0; i < bobsFollowers.length; i++) {
+  for (let j = 0; j < tinasFollowers.length; j++) {
+    if (bobsFollowers[i] === tinasFollowers[j]) {
+      mutualFollowers.push(bobsFollowers[i]);
+    }
+  }
+}
+
+console.log(mutualFollowers); // ["Sam", "Alex"]
+
+```
+
+

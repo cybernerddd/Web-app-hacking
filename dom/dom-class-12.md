@@ -13,7 +13,7 @@ document.body.style.color = 'lime';
 ```
 And it was executed to the screen. 
 I tried the same payload in the review boxes under the products and
-the payload got stored buut wasnt rendered or executed by the browser or DOM
+the payload got stored but wasnt rendered or executed by the browser or DOM
 
 This was because:
 - Review boxes may sanitize or filter inputs unless the stored content is rendered unsafely.

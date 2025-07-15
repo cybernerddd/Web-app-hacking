@@ -1,24 +1,17 @@
 ## Real-World Use Case
 Used in:
 
-* Malicious JavaScript in login portals
-* XSS payloads to intercept user logins
+> - Malicious JavaScript in login portals
+> - XSS payloads to intercept user logins
+-----
 
-```js
+## Invisible DOM Warfare
 
----
+### Goal
+> Deceive users by replacing, disabling, or overriding 
+real page elements.
 
-## 📘 DOM Hacker Class 03 - Invisible DOM Warfare
-
-```md
-# DOM Hacker Class 03 - Invisible DOM Warfare
-
-## 🎯 Goal
-Deceive users by replacing, disabling, or overriding real page elements.
-
----
-
-## 🧱 Disable Real Form
+## Disable Real Form
 ```js
 document.getElementById("loginForm").onsubmit = function(event) {
   event.preventDefault();

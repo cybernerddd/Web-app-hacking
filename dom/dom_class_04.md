@@ -1,21 +1,14 @@
 ## 	Full fake login built with JavaScript
 > HTML TEMPLATE BELOW :
------
-```html
+----
+# Full Fake Login via JS
 
+## Goal
+> - Build an entire phishing login UI using JavaScript only, 
+then capture data and redirect.
 ---
 
-## 📘 DOM Hacker Class 04 - Full Fake Login via JS
-
-```md
-# DOM Hacker Class 04 - Full Fake Login via JS
-
-## 🧠 Goal
-Build an entire phishing login UI using JavaScript only, then capture data and redirect.
-
----
-
-## 🧱 HTML Template (phish.html)
+## HTML Template (phish.html)
 ```html
 <!DOCTYPE html>
 <html>

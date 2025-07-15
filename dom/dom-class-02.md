@@ -1,9 +1,9 @@
 # DOM Hacker Class 02 - Input Hijacking & Live Data Capture
 
 ## Lessoons learnt
-> How to grab user input in real-time using DOM
-> How to listen for `onclick` or `onsubmit` events
-> Sending data to your own server (RequestBin)
+> - How to grab user input in real-time using DOM
+> - How to listen for `onclick` or `onsubmit` events
+> - Sending data to your own server (RequestBin)
 ------
 
 ## ✅ Real-Time Input Capture Script

@@ -25,7 +25,7 @@ This means:
 {{1+1}}
 ```
 If the page shows 2, the expression is evaluated —> it's vulnerable!
-Then you can your real payload
+Then you can use your real payload
 ```js
 {{constructor.constructor('alert(document.domain)')()}}
 ```

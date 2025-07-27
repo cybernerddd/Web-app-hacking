@@ -22,7 +22,8 @@ Then, youll need to bypass CSP to drop your payload::
 1. Using Js functions allowed by CSP
    > If the site is strict on you using `script-src` sometimes, `style-src` or `img-src` works
    ```js
-   <svg/onload=alert(1)> <img src=x onerror=alert(1)>
+   <svg/onload=alert(1)> 
+   <img src=x onerror=alert(1)>
    ```
    or
    ```js

@@ -9,6 +9,7 @@ An API endpoint doesn’t check roles at all.
 ------
 
 <img width="1920" height="1080" alt="Screenshot From 2025-08-25 21-48-25" src="https://github.com/user-attachments/assets/5720f0ed-dd81-40c9-a54a-d7507c421e25" />
+
 ### Option 1 
 Intercepted the Request with Burp and changed `Admin=false` to `Admin=true` and I got admin privileges.
 

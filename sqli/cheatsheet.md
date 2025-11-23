@@ -199,6 +199,3 @@ test ASCII(midpoint) via conditional error
 determine char
 
 ---
-
-# ✔️ End of Cheat Sheet
-Drop this file in your repository as `SQLi-Cheat-Sheet.md` or `README.md`.
